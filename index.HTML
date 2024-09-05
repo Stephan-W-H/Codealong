@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoppeklokke</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Dette er en stoppeklokke med 3 funksjoner</h1>
+
+<!--Forklaring på hva oppgaven går ut på-->
+<h3>Start: teller ned sekundene</h3>
+<h3>Round time: Stopper midlertidlig og lagrer tiden</h3>
+<h3>Reset: Tilbakestiller klokken</h3>
+
+<!--Her har jeg laget en div struktur veldig enkel som viser tid av sekunder, millisekunder og minutter-->
+<div class="time"> 
+<div id="minutes">00:</div>
+<div id="seconds">00</div>
+<div id="milliseconds">:00</div>
+</div>
+<!--Dette er en div for å lagre rundetidene-->
+<div class="roundTime" id="saveTime">Round time</div>
+
+<!--Her har jeg 3 knapper for å starte, registrere rundetidene og tilbakestille stoppeklokken-->
+<div id="stopWatch"></div>
+<button class="btn" id="startTimer" onclick="startTime()">Start</button>
+<button class="btn" id="stop" onclick="pause()">Round time</button>
+<button class="btn" id="reset" onclick="stop()">Reset</button>
+</div>
+
+<script src="JavaScript.JS"></script> 
+</body>
+</html>

@@ -1,0 +1,26 @@
+.time {
+    padding: 20px;
+    position: relative;
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+}
+
+.btn {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    margin: 2px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    
+}
+
+.roundTime{
+    font-size: 25px;
+}
